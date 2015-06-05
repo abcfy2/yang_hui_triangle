@@ -7,6 +7,7 @@ def yh(n):
     if n == 0:
         layout = [1]
     elif n == 1:
+        print([1])
         layout = [1, 1]
     else:
         tmp = yh(n-1)
